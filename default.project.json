@@ -1,0 +1,22 @@
+{
+  "name": "NSS-ARG",
+  "tree": {
+    "$className": "DataModel",
+
+    "ReplicatedFirst": {
+      "Client": {
+        "$path": "src/client"
+      },
+
+      "Interface": {
+        "$path": "src/interface"
+      }
+    },
+
+    "ServerScriptService": {
+      "Server": {
+        "$path": "src/server"
+      }
+    }
+  }
+}
